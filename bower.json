@@ -1,0 +1,33 @@
+{
+  "name": "budget_app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/geoffdavis92/Budget_App",
+  "authors": [
+    "Geoff Davis <geoffdavis92@gmail.com"
+  ],
+  "description": "App to track budget/expenses",
+  "main": "index.js",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "keywords": [
+    "budget",
+    "track",
+    "d3",
+    "react",
+    "jade"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "foundation": "~5.5.3"
+  }
+}

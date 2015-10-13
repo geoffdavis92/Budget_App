@@ -1,0 +1,27 @@
+{
+  "name": "budget_app",
+  "version": "0.0.0",
+  "description": "App to track your budget/expenses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffdavis92/Budget_App.git"
+  },
+  "keywords": [
+    "budget",
+    "track",
+    "node",
+    "jade",
+    "d3",
+    "react"
+  ],
+  "author": "geoffdavis92",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geoffdavis92/Budget_App/issues"
+  },
+  "homepage": "https://github.com/geoffdavis92/Budget_App#readme"
+}

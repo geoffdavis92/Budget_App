@@ -1,0 +1,48 @@
+{
+  "name": "rune.js",
+  "version": "0.1.6",
+  "description": "A JavaScript library for programming graphic design systems with SVG",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/runemadsen/rune.js"
+  },
+  "main": "src/rune.js",
+  "files": [
+    "src"
+  ],
+  "author": "runemadsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/runemadsen/rune.js/issues"
+  },
+  "homepage": "http://runemadsen.github.io/rune.js/",
+  "dependencies": {
+    "underscore": "^1.7.0",
+    "virtual-dom": "^2.0.1",
+    "color-convert": "^0.5.3",
+    "color-string": "^0.3.0",
+    "bezier-js": "^1.0.8",
+    "opentype.js": ""
+  },
+  "devDependencies": {
+    "babelify": "^6.2.0",
+    "browserify": "^11.0.0",
+    "del": "^1.2.1",
+    "grunt": "^0.4.5",
+    "grunt-regex-replace": "^0.2.6",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-jasmine": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.4.0",
+    "gulp-zip": "^3.0.2",
+    "lodash.assign": "^3.2.0",
+    "open": "^0.0.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.1"
+  },
+  "preferGlobal": true
+}

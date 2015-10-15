@@ -1,0 +1,41 @@
+@import "../colors";
+@import "settings";
+@import "normalize";
+
+// Or selectively include components
+@import
+	"includes/components/accordion",
+	"includes/components/alert-boxes",
+	"includes/components/block-grid",
+	"includes/components/breadcrumbs",
+	"includes/components/button-groups",
+	"includes/components/buttons",
+	"includes/components/clearing",
+	"includes/components/dropdown",
+	"includes/components/dropdown-buttons",
+	"includes/components/flex-video",
+	"includes/components/forms",
+	"includes/components/grid",
+	"includes/components/inline-lists",
+	"includes/components/joyride",
+	"includes/components/keystrokes",
+	"includes/components/labels",
+	"includes/components/magellan",
+	"includes/components/orbit",
+	"includes/components/pagination",
+	"includes/components/panels",
+	"includes/components/pricing-tables",
+	"includes/components/progress-bars",
+	"includes/components/reveal",
+	"includes/components/side-nav",
+	"includes/components/split-buttons",
+	"includes/components/sub-nav",
+	"includes/components/switches",
+	"includes/components/tables",
+	"includes/components/tabs",
+	"includes/components/thumbs",
+	"includes/components/tooltips",
+	"includes/components/top-bar",
+	"includes/components/type",
+	"includes/components/offcanvas",
+	"includes/components/visibility";

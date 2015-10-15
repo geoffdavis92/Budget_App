@@ -1,0 +1,31 @@
+doctype html
+head
+	title Watch-Dog
+	- var meta = { desc: 'Tracking app for your budget and expenses' }
+	meta(name="description" content=meta.desc)
+	meta(name="viewport" content="")
+	link(href="css/foundation.css" rel="stylesheet" type="text/css")
+	link(href="css/theme.css" rel="stylesheet" type="text/css")
+- var site = { title: 'watch-dog'}
+body.container(style="padding: 25px")
+	h1 #{site.title}
+	p Keep an eye on your finances
+	form.row
+		div.row
+			.large-4.medium-4.small-12.columns
+				label Name
+				input(type="text" name="name")
+		div.row
+			.large-4.medium-4.small-12.columns
+				label Email
+				input(type="email" name="email")
+		div.row
+			.large-4.medium-4.small-12.columns
+				input.button.primary.small.radius(type="submit" name="submit" value="SUBMIT")
+	section
+		article
+			p This is in an article
+		aside Aside!
+		footer.section
+			p Article end
+	script(src="//localhost:18180/livereload.js")

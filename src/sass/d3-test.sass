@@ -1,0 +1,43 @@
+@import 'includes/foundation/index.scss'
+
+$gray: #efefef
+$section_fill: steelblue
+$svg_fill: limegreen
+$async_fill: crimson
+body
+	background-color: $gray
+	padding: 33px 50px
+	div.chart-section
+		background-color: black
+		height: 250px
+		padding: 10px
+		width: 500px
+		& *
+			color: $gray
+		.bar
+			fill: $section_fill
+			background-color: $section_fill
+			margin: 5px 0
+			.text
+				color: $gray
+				padding: 0 5px
+	div + h3
+		margin: 50px 0 0 0
+	// svg
+		border: 10px solid black
+	svg.chart-svg
+		background-color: black
+		rect 
+			fill: $svg_fill
+		text 
+			fill: white
+			font: 10px sans-serif
+			text-anchor: end
+	svg.chart-async-svg
+		background-color: black
+		rect 
+			fill: $async_fill
+		text 
+			fill: white
+			font: 10px sans-serif
+			text-anchor: end

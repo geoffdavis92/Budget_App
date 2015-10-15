@@ -1,0 +1,23 @@
+- var widths = [40,80,150,160,230,420]
+
+doctype html
+head
+	title D3 Code Test
+	script(src="js/d3.lib.js")
+	script(src="js/ui.lib.js")
+	link(href="" rel="favicon")
+	link(href="css/theme.css" rel="stylesheet" type="text/css")
+	link(href="css/d3-test.css" rel="stylesheet" type="text/css")
+body
+	h1 d3.js
+	p This is a page with some D3 content.
+	.chart-section
+		h3 HTML Chart
+		for width in widths
+			div(class="bar #{width}" style='width: #{width}px'): span.text #{width}
+	h3 SVG Chart
+	svg.chart-svg
+	h3 SVG Async Data
+	svg.chart-async-svg
+	script(src="js/d3-test.js")
+	script(src="//localhost:18180/livereload.js")
